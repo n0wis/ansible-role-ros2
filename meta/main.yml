@@ -1,18 +1,18 @@
 galaxy_info:
-  role_name: ROS2
-  author: rarrais
+  role_name: ros2
+  author: n0wis
   description: An Ansible Role that installs ROS 2 (Robot Operating System) on Ubuntu
-  company: INESC TEC
 
   license: MIT
 
-  min_ansible_version: 2.4
+  min_ansible_version: "2.10"
 
   platforms:
-  - name: Ubuntu
-    versions:
-    - bionic
-    - focal
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - jammy
 
   galaxy_tags:
     - ros
@@ -26,5 +26,6 @@ galaxy_info:
     - dashing
     - eloquent
     - foxy
+    - humble
 
 dependencies: []
