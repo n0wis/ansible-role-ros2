@@ -13,6 +13,7 @@ galaxy_info:
         - bionic
         - focal
         - jammy
+        - noble
 
   galaxy_tags:
     - ros
@@ -27,5 +28,6 @@ galaxy_info:
     - eloquent
     - foxy
     - humble
+    - jazzy
 
 dependencies: []
